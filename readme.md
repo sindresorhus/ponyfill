@@ -60,6 +60,17 @@ const apiPonyfill = api || require('api-ponyfill');
 [Search npm.](https://npms.io/search?q=keywords%3Aponyfill)
 
 
+## How do I make a ponyfill?
+
+- Read the specification or source code of the feature you want ponyfill.
+- Initialize an [npm package](https://github.com/sindresorhus/generator-nm).
+- [Write some tests](https://ava.li) to ease writing the ponyfill logic.
+- Link to documentation about the feature in your readme. [Example.](https://github.com/sindresorhus/buffer-includes#readme)
+- Link to `https://ponyfill.com` in your readme. [Example.](https://github.com/sindresorhus/object-assign#readme)
+- Add `ponyfill` to the `keywords` section in package.json.
+- Publish!
+
+
 ## Resources
 
 - [Ponyfill definition - Sillicon Valley Dictionary](http://svdictionary.com/words/ponyfill)
