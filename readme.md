@@ -23,13 +23,13 @@ A ponyfill, in contrast, doesn't monkey patch anything, but instead exports the 
 ```js
 Number.isNaN = Number.isNaN || function (value) {
 	return value !== value;
-}
+};
 ```
 
 ```js
 require('is-nan-polyfill');
 
-Number.isNan(5);
+Number.isNaN(5);
 ```
 
 ### Ponyfill
@@ -37,7 +37,7 @@ Number.isNan(5);
 ```js
 module.exports = Number.isNaN || function (value) {
 	return value !== value;
-}
+};
 ```
 
 ```js
