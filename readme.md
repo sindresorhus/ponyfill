@@ -48,11 +48,7 @@ var isNanPonyfill = require('is-nan-ponyfill');
 isNanPonyfill(5);
 ```
 
-**Ponyfills should never use the native API, even if available,** as it might have slightly different behavior between environments, which can cause bugs. If the user really need to be able to use the native API when available for some reason, though strongly discouraged, you could suggest doing the following on their own risk:
-
-```js
-const apiPonyfill = api || require('api-ponyfill');
-```
+**Ponyfills should never use the native API, even if available,** as it might have slightly different behavior between environments, which can cause bugs.
 
 
 ## Where can I find ponyfills?
