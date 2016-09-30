@@ -60,6 +60,7 @@ isNanPonyfill(5);
 
 - [Ponyfill definition - Sillicon Valley Dictionary](http://svdictionary.com/words/ponyfill)
 - [Polyfills or Ponyfills? - Pony Foo](https://ponyfoo.com/articles/polyfills-or-ponyfills)
+- [Polyfill, Ponyfill and Prollyfill - Kikobeats](https://kikobeats.com/polyfill-ponyfill-and-prollyfill/)
 
 
 ## License
