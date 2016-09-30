@@ -4,6 +4,8 @@
 
 <h4 align="center">Like polyfill but with pony pureness</h4><br><br><br>
 
+*Use [ponyfill.com](https://ponyfill.com) for linking here.*
+
 
 ## Pony pureness, really?
 
