@@ -37,7 +37,7 @@ Number.isNaN(5);
 ### Ponyfill
 
 ```js
-module.exports = Number.isNaN || function (value) {
+module.exports = function (value) {
 	return value !== value;
 };
 ```
@@ -48,7 +48,11 @@ var isNanPonyfill = require('is-nan-ponyfill');
 isNanPonyfill(5);
 ```
 
-*Only use the native API in your ponyfill (the `Number.isNaN || ` part) when the spec is stable, to ensure it doesn't have differing behavior depending on the environment.*
+**Ponyfills should never use the native API, even if available,** as it might have slightly different behavior between environments, which can cause bugs. If the user really need to be able to use the native API when available for some reason, though strongly discouraged, you could suggest doing the following on their own risk:
+
+```js
+const apiPonyfill = api || require('api-ponyfill');
+```
 
 
 ## Where can I find ponyfills?
