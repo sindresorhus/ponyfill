@@ -58,7 +58,7 @@ isNanPonyfill(5);
 
 ## How do I make a ponyfill?
 
-- Read the specification or source code of the feature you want ponyfill.
+- Read the specification or source code of the feature you want to  ponyfill.
 - Initialize an [npm package](https://github.com/sindresorhus/generator-nm).
 - [Write some tests](https://ava.li) to ease writing the ponyfill logic.
 - Link to documentation about the feature in your readme. [Example.](https://github.com/sindresorhus/buffer-includes#readme)
