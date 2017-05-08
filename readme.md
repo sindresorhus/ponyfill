@@ -62,7 +62,7 @@ isNanPonyfill(5);
 - Initialize an [npm package](https://github.com/sindresorhus/generator-nm).
 - [Write some tests](https://ava.li) to ease writing the ponyfill logic.
 - Link to documentation about the feature in your readme. [Example.](https://github.com/sindresorhus/buffer-includes#readme)
-- Link to `https://ponyfill.com` in your readme. [Example.](https://github.com/sindresorhus/object-assign#readme)
+- Link to [ponyfill.com](https://ponyfill.com) in your readme. [Example.](https://github.com/sindresorhus/object-assign#readme)
 - Add `ponyfill` to the `keywords` section in package.json.
 - Publish!
 
