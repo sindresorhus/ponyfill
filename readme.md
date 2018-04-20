@@ -1,5 +1,5 @@
 <h1 align="center">
-	<img src="https://cdn.rawgit.com/sindresorhus/ponyfill/bf5b4d09f669c690b359b66bb7c82f4759bee6b6/media/header-min.svg" alt="Ponyfill">
+	<img src="media/header-min.svg" alt="Ponyfill">
 </h1>
 
 <h4 align="center">Like polyfill but with pony pureness</h4><br><br><br>
