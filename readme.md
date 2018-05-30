@@ -53,7 +53,7 @@ isNanPonyfill(5);
 
 ## Where can I find ponyfills?
 
-[Search npm.](https://npms.io/search?q=keywords%3Aponyfill)
+[Search npm.](https://www.npmjs.com/search?q=keywords%3Aponyfill)
 
 
 ## How do I make a ponyfill?
