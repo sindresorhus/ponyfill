@@ -6,6 +6,7 @@
 
 *Use [ponyfill.com](https://ponyfill.com) for linking here.*
 
+[中文](readme_zh-CN.md)
 
 ## Pony pureness, really?
 
