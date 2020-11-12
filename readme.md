@@ -1,16 +1,16 @@
 <h1 align="center">
 	<img src="media/header-min.svg" alt="Ponyfill">
 </h1>
-
-<h4 align="center">Like polyfill but with pony pureness</h4><br><br><br>
+<h4 align="center">Like polyfill but with pony pureness</h4>
+<br>
+<br>
+<br>
 
 *Use [ponyfill.com](https://ponyfill.com) for linking here.*
-
 
 ## Pony pureness, really?
 
 While polyfills are naughty, ponyfills are pure, just like ponies.
-
 
 ## How are ponyfills better than polyfills?
 
@@ -55,24 +55,21 @@ isNanPonyfill(5);
 
 [Search npm.](https://npms.io/search?q=keywords%3Aponyfill)
 
-
 ## How do I make a ponyfill?
 
 - Read the specification or source code of the feature you want to ponyfill.
 - Initialize an [npm package](https://github.com/sindresorhus/generator-nm).
-- [Write some tests](https://ava.li) to ease writing the ponyfill logic.
+- [Write some tests](https://avajs.dev) to ease writing the ponyfill logic.
 - Link to documentation about the feature in your readme. [Example.](https://github.com/sindresorhus/buffer-includes#readme)
 - Link to `https://ponyfill.com` in your readme. [Example.](https://github.com/sindresorhus/object-assign#readme)
 - Add `ponyfill` to the `keywords` section in package.json.
 - Publish!
-
 
 ## Resources
 
 - [Ponyfill definition - Sillicon Valley Dictionary](http://svdictionary.com/words/ponyfill)
 - [Polyfills or Ponyfills? - Pony Foo](https://ponyfoo.com/articles/polyfills-or-ponyfills)
 - [Polyfill, Ponyfill and Prollyfill - Kikobeats](https://kikobeats.com/polyfill-ponyfill-and-prollyfill/)
-
 
 ## License
 
