@@ -48,8 +48,12 @@ var isNanPonyfill = require('is-nan-ponyfill');
 isNanPonyfill(5);
 ```
 
-**Ponyfills should never use the native API, even if available,** as it might have slightly different behavior between environments, which can cause bugs.
+**Ponyfills should avoid using native APIs**, because potential bugs or differences in the native APIs will make such a ponyfill less robust (therefore defeating one of its main purposes). There are important exceptions, such as when:
 
+- There is no way to implement some of the ponyfill without native APIs.
+- Reimplementing native parts would have a large cost (e.g. performance or code size).
+
+In such cases, it's still valuable for the ponyfill to minimize any assumptions about the underlying environment.
 
 ## Where can I find ponyfills?
 
