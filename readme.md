@@ -18,18 +18,18 @@ A [polyfill](https://en.wikipedia.org/wiki/Polyfill_(programming)) is code that 
 
 A ponyfill, in contrast, doesn't monkey patch anything, but instead exports the functionality as a normal module, so you can use it locally without affecting other code.
 
-*tl;dr;* Polyfills are naughty as they patch native APIs, while ponyfills are pure and don't affect the environment.
+*tl;dr:* Polyfills are naughty as they patch native APIs, while ponyfills are pure and doesn't affect the environment.
 
 ### Polyfill
 
 ```js
-Number.isNaN = Number.isNaN || function (value) {
+Number.isNaN ??= function (value) {
 	return value !== value;
 };
 ```
 
 ```js
-require('is-nan-polyfill');
+import 'is-nan-polyfill';
 
 Number.isNaN(5);
 ```
@@ -37,13 +37,13 @@ Number.isNaN(5);
 ### Ponyfill
 
 ```js
-module.exports = function (value) {
+export default function isNaN(value) {
 	return value !== value;
 };
 ```
 
 ```js
-var isNanPonyfill = require('is-nan-ponyfill');
+import isNanPonyfill from 'is-nan-ponyfill';
 
 isNanPonyfill(5);
 ```
@@ -71,7 +71,7 @@ In such cases, it's still valuable for the ponyfill to minimize any assumptions 
 
 ## Resources
 
-- [Ponyfill definition - Sillicon Valley Dictionary](http://svdictionary.com/words/ponyfill)
+- [Ponyfill definition - Silicon Valley Dictionary](http://svdictionary.com/words/ponyfill)
 - [Polyfills or Ponyfills? - Pony Foo](https://ponyfoo.com/articles/polyfills-or-ponyfills)
 - [Polyfill, Ponyfill and Prollyfill - Kikobeats](https://kikobeats.com/polyfill-ponyfill-and-prollyfill/)
 
