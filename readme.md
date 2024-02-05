@@ -18,7 +18,7 @@ A [polyfill](https://en.wikipedia.org/wiki/Polyfill_(programming)) is code that 
 
 A ponyfill, in contrast, doesn't monkey patch anything, but instead exports the functionality as a normal module, so you can use it locally without affecting other code.
 
-*tl;dr:* Polyfills are naughty as they patch native APIs, while ponyfills are pure and doesn't affect the environment.
+*tl;dr:* Polyfills are naughty as they patch native APIs, while ponyfills are pure and don't affect the environment.
 
 ### Polyfill
 
