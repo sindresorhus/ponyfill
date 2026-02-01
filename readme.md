@@ -112,6 +112,10 @@ isNanPonyfill(5);
 <div class="responsive-text" data-container="small">Responsive text</div>
 ```
 
+### When polyfills are still the right choice
+
+Prefer ponyfills for code you control. But when a nested dependency lacks support for a feature, polyfilling the environment may be the only practical option. Forking deep transitive dependencies is rarely feasible.
+
 ### Why not use the native API in a ponyfill when available?
 
 Ponyfills should avoid relying on native APIs unless unavoidable because:
